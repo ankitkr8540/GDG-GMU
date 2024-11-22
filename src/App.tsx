@@ -5,9 +5,30 @@ import { Hero } from '@/components/Hero'
 import { EventCard } from '@/components/EventCard'
 import EventDialog from '@/components/EventDialog'
 import { events } from '@/data/events'
+import { IconType } from 'react-icons'
+
+// Define the Event type
+interface Event {
+  id: string
+  sem: string
+  date: string
+  time: string
+  title: string
+  description: string
+  icon: IconType
+  iconColor: string
+  bgGradient: string
+  highlights: string[]
+  tags: string[]
+  location: string
+  capacity: string
+  calendarLink: string
+  resourceLink?: string
+}
 
 function App() {
-  const [selectedEvent, setSelectedEvent] = useState(null)
+  // Properly type the state to accept either null or Event
+  const [selectedEvent, setSelectedEvent] = useState<Event | null>(null)
   const [dialogOpen, setDialogOpen] = useState(false)
 
   return (

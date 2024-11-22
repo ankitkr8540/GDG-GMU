@@ -1,5 +1,5 @@
 import { IoSnow, IoSparkles, IoCode, IoGameController, IoCloud } from "react-icons/io5"
-import { FaMicrochip, FaRocket, FaStar, FaUsers, FaTrophy } from "react-icons/fa"
+import { FaRocket } from "react-icons/fa"
 export const events = [
   {
     id: 'GDG-Launch-2024',

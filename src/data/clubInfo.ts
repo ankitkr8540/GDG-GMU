@@ -11,7 +11,7 @@ export const clubInfo = {
       'https://gdg.community.dev/gdg-on-campus-george-mason-university-fairfax-united-states/',
     linkedin: 'https://www.linkedin.com/company/gdg-on-campus-gmu/',
     instagram: 'https://www.instagram.com/gmu_gdg/',
-    mason360: 'https://mason360.gmu.edu/gdgmason/home/',
+    mason360: 'https://mason360.gmu.edu/gdgoncampus/home/',
   },
   colors: {
     google: {
